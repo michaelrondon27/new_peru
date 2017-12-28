@@ -1,0 +1,299 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background: #fff;
+	font-family: Arial;
+	font-size: 10px;
+	/*border-top: 30px solid #00D2BD;*/
+}
+h5{
+	font-size: 12PX;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+.container{
+	width: 100%;
+	color: #000;
+	margin: auto;
+	padding-top: -50px;
+}
+.img{
+	float: left;
+	width: 10%;
+}
+.titulos{
+	float: left;
+	width: 30%;
+}
+.titulos p{
+	font-size: 10px;
+}
+.cedula{
+	border: 1px solid #000;
+	float: left;
+	width: 350px;
+	margin-left: 350px;
+	height: 150px;
+	margin-bottom: 10px;
+}
+.clear{
+	clear: both;
+	margin-top: 10px;
+}
+.foto{
+	width: 120px;
+	height: 120px;
+	border: 1px solid #000;
+	float: left;
+	margin-left: 80px;
+}
+.repres{
+	width: 120px;
+	height: 120px;
+	border: 1px solid #000;
+	float: left;
+	margin-left: 80px;
+}
+.repres p{
+	text-align: center;
+	padding-top: 30px;
+}
+.linea{
+	border-bottom: 1px solid #000;
+	clear: both;
+}
+.linea_derecha{
+	border-right: 1px solid #000;
+}
+.estudiante,
+.madre,
+.padre,
+.legal,
+.sup,
+.med,
+.act{
+	width: 100%;
+	margin: auto;
+	border: 1px solid #000;
+}
+.her{
+	width: 100%;
+	margin: auto;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+.estudiante .ced,
+.estudiante .estado,
+.med .sangre,
+.med .lateralidad,
+.ins .pen{
+	float: left;
+	width: 25%;
+	text-align: left;
+	padding: 5px;
+}
+.estudiante .ced_escolar,
+.estudiante .tlf,
+.estudiante .especifique,
+.estudiante .fec_lopna,
+.her .apellidos,
+.her .nombres,
+.madre .apellidos,
+.madre .nombres,
+.madre .ocupacion,
+.madre .instruccion,
+.madre .tlf,
+.madre .correo,
+.padre .apellidos,
+.padre .nombres,
+.padre .ocupacion,
+.padre .instruccion,
+.padre .tlf,
+.padre .correo,
+.legal .apellidos,
+.legal .nombres,
+.sup .apellidos,
+.sup .nombres,
+.sup .correo,
+.sup .ocupacion,
+.sup .tlf,
+.med .otros{
+	float: left;
+	width: 30%;
+	text-align: left;
+	padding: 5px;
+}
+.estudiante .apellidos,
+.estudiante .nombres{
+	float: left;
+	width: 32%;
+	text-align: left;
+	padding: 5px;
+}
+.estudiante .parto,
+.ins .fec_ins,
+.ins .usuario,
+.ins .rep{
+	float: left;
+	width: 40%;
+	text-align: left;
+	padding: 5px;
+}
+.estudiante .edad,
+.med .psicologo,
+.med .neurologo,
+.med .psiquiatria,
+.med .fisiatria{
+	float: left;
+	width: 10%;
+	text-align: left;
+	padding: 5px;
+}
+.estudiante .sexo,
+.med .ocupacional{
+	float: left;
+	width: 16%;
+	text-align: left;
+	padding: 5px;
+}
+.estudiante .lugar_fec,
+.med .afecciones,
+.med .otros1,
+.ins .estu{
+	float: left;
+	width: 50%;
+	text-align: left;
+	padding: 5px;
+}
+.estudiante .pais,
+.her .rep,
+.her .grado,
+.legal .edad,
+.legal .ced,
+.med .psicopedagogia,
+.ins .ed{
+	float: left;
+	width: 15%;
+	text-align: left;
+	padding: 5px;
+}
+.estudiante .correo,
+.estudiante .repre,
+.estudiante .permi_lopna,
+.med .otras{
+	float: left;
+	width: 60%;
+	text-align: left;
+	padding: 5px;
+}
+.estudiante .direccion,
+.estudiante .hermanos,
+.madre .dir,
+.padre .dir,
+.sup .dir,
+.med .diversidad,
+.med .especialista,
+.med .lugar,
+.med .medicado,
+.med .fisico,
+.med .seguro,
+.act .extra,
+.act .deporte,
+.act .voluntariados,
+.act .canaima{
+	float: left;
+	width: 100%;
+	text-align: left;
+	padding: 5px;
+}
+.madre .edad,
+.sup .edad,
+.med .sufrido{
+	float: left;
+	width: 8%;
+	text-align: left;
+	padding: 5px;
+}
+.madre .edad,
+.madre .ced,
+.padre .edad,
+.padre .ced,
+.sup .ced,
+.med .diabetes,
+.med .alergias,
+.med .asma,
+.med .hipertension,
+.med .cardiopatia,
+.med .odontologia,
+.med .dermatologia,
+.ins .reg{
+	float: left;
+	width: 12%;
+	text-align: left;
+	padding: 5px;
+}
+.legal .nota{
+	float: left;
+	width: 100%;
+	text-align: justify;
+	padding: 5px;
+}
+.sup .parentesco,
+.sup .instruccion,
+.med .oido,
+.med .lentes,
+.med .sarampion,
+.med .rubeola,
+.med .paperas,
+.ins .cedu{
+	float: left;
+	width: 20%;
+	text-align: left;
+	padding: 5px;
+}
+.med .especialistas{
+	float: left;
+	width: 35%;
+	text-align: left;
+	padding: 5px;
+}
+.med .lengua{
+	float: left;
+	width: 18%;
+	text-align: left;
+	padding: 5px;
+}
+.espacio{
+	margin: 20px;
+}
+.centrar{
+	text-align: center;
+	width: 100%;
+}
+.left{
+	text-align: left;
+	width: 100%;
+	padding: 5px;
+}
+.left div{
+	margin-left: 20px;
+	padding: 2px;
+}
+.ins .reg span,
+.ins .pen span,
+.ins .rep span{
+	border-bottom: 1px solid #000;
+}
+.firma{
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin-left: 5px;
+	border-top: 1px solid #000;
+}
